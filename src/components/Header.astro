@@ -24,7 +24,15 @@ const { activeNav } = Astro.props;
               height={LOGO_IMAGE.height}
             />
           ) : (
-            SITE.title
+            SITE.title || (
+              <img
+                src="/Logo1(D).png"
+                alt="Blog Logo"
+                width={64}
+                height={64}
+                class="aspect-thumbnail rounded-full object-cover"
+              />
+            )
           )
         }
       </a>
@@ -57,17 +65,17 @@ const { activeNav } = Astro.props;
         <ul id="menu-items" class="display-none sm:flex">
           <li>
             <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
-              Posts
+              [Posts]
             </a>
           </li>
           <li>
             <a href="/tags/" class={activeNav === "tags" ? "active" : ""}>
-              Tags
+              [Tags]
             </a>
           </li>
           <li>
             <a href="/about/" class={activeNav === "about" ? "active" : ""}>
-              About
+              [About]
             </a>
           </li>
           <li>

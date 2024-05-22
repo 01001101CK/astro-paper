@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  website: "https://danielleheberling.xyz/", // replace this with your deployed domain
+  author: "Yufa Li",
+  desc: "Danielle's Blog",
+  title: "Danielle Heberling",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -19,8 +19,8 @@ export const LOCALE = {
 export const LOGO_IMAGE = {
   enable: false,
   svg: true,
-  width: 216,
-  height: 46,
+  width: 350,
+  height: 500,
 };
 
 export const SOCIALS: SocialObjects = [

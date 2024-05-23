@@ -79,11 +79,11 @@ Both light & dark color schemes of AstroPaper theme can be customized. You can d
   :root,
   html[data-theme="light"] {
     --color-fill: 238, 232, 205; /* Light background color */
-    --color-text-base: 1, 44, 86;
-    --color-accent: 225, 74, 57;
+    --color-text-base: 4, 47, 46;
+    --color-accent: 4, 47, 46;
     --color-card: 217, 209, 195;
     --color-card-muted: 239, 216, 176;
-    --color-border: 220, 152, 145;
+    --color-border: 4, 47, 46;
   }
   html[data-theme="dark"] {
     --color-fill: 4, 47, 46; /* Dark background color */

@@ -26,7 +26,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/deeheber",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -34,17 +34,17 @@ export const SOCIALS: SocialObjects = [
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Instagram`,
-    active: true,
+    active: false,
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.linkedin.com/in/deeheber",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
@@ -56,15 +56,15 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://x.com/deeheber",
     linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    active: true,
   },
   {
-    name: "Twitch",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Twitch`,
-    active: false,
+    name: "Dev",
+    href: "https://dev.to/deeheber",
+    linkTitle: `${SITE.title} on Dev`,
+    active: true,
   },
   {
     name: "YouTube",

@@ -66,7 +66,7 @@ const { activeNav } = Astro.props;
           </li> -->
           <li>
             <a href="/about/" class={activeNav === "about" ? "active" : ""}>
-              [About]
+              About
             </a>
           </li>
           <li>
@@ -147,6 +147,27 @@ const { activeNav } = Astro.props;
   nav ul li a {
     @apply w-full px-4 py-3 text-center font-medium hover:text-skin-accent sm:my-0 sm:px-2 sm:py-1;
   }
+
+  nav ul li a::after {
+    content: "";
+  }
+
+  nav ul li a:hover::after {
+    content: "}";
+    color: var(--tw-text-opacity, 1);
+    @apply text-skin-accent;
+  }
+
+  nav ul li a::before {
+    content: "";
+  }
+
+  nav ul li a:hover::before {
+    content: "{";
+    color: var(--tw-text-opacity, 1);
+    @apply text-skin-accent;
+  }
+
   nav ul li:nth-last-child(2) a {
     @apply w-auto;
   }

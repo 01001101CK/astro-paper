@@ -1,4 +1,21 @@
 const socialIcons = {
+  Twitter: `<svg
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon-tabler"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  width="16px"
+  height="16px"
+  viewBox="0 0 24 24"
+  style="enable-background:new 0 0 24 24;"
+  xml:space="preserve"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <path
+    transform="scale(0.75, 0.75) translate(3, 3)"
+    d="M14.095479,10.316482L22.286354,1h-1.940718l-7.115352,8.087682L7.551414,1H1l8.589488,12.231093L1,23h1.940717l7.509372-8.542861L16.448587,23H23L14.095479,10.316482z M11.436522,13.338465l-0.871624-1.218704l-6.924311-9.68815h2.981339l5.58978,7.82155l0.867949,1.218704l7.26506,10.166271h-2.981339L11.436522,13.338465z"
+  ></path>
+</svg>`,
   Github: `<svg
     xmlns="http://www.w3.org/2000/svg"
     class="icon-tabler"
@@ -55,23 +72,17 @@ const socialIcons = {
       <rect x="3" y="5" width="18" height="14" rx="2"></rect>
       <polyline points="3 7 12 13 21 7"></polyline>
     </svg>`,
-  Twitter: `<svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="icon-tabler"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-      <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
-    </svg>`,
-  Twitch: `<svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="icon-tabler"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    >
-      <path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7"></path>
-    </svg>`,
+  Dev: `<svg 
+      stroke="currentColor" 
+      fill="currentColor" 
+      stroke-width="0" 
+      viewBox="0 0 448 512" 
+      height="35" 
+      width="35" 
+      xmlns="http://www.w3.org/2000/svg">
+      <path d="M120.12 208.29c-3.88-2.9-7.77-4.35-11.65-4.35H91.03v104.47h17.45c3.88 0 7.77-1.45 11.65-4.35 3.88-2.9 5.82-7.25 5.82-13.06v-69.65c-.01-5.8-1.96-10.16-5.83-13.06zM404.1 32H43.9C19.7 32 .06 51.59 0 75.8v360.4C.06 460.41 19.7 480 43.9 480h360.2c24.21 0 43.84-19.59 43.9-43.8V75.8c-.06-24.21-19.7-43.8-43.9-43.8zM154.2 291.19c0 18.81-11.61 47.31-48.36 47.25h-46.4V172.98h47.38c35.44 0 47.36 28.46 47.37 47.28l.01 70.93zm100.68-88.66H201.6v38.42h32.57v29.57H201.6v38.41h53.29v29.57h-62.18c-11.16.29-20.44-8.53-20.72-19.69V193.7c-.27-11.15 8.56-20.41 19.71-20.69h63.19l-.01 29.52zm103.64 115.29c-13.2 30.75-36.85 24.63-47.44 0l-38.53-144.8h32.57l29.71 113.72 29.57-113.72h32.58l-38.46 144.8z">
+      </path>
+      </svg>`,
   YouTube: `<svg
       xmlns="http://www.w3.org/2000/svg"
       class="icon-tabler"
